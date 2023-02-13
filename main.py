@@ -183,7 +183,7 @@ def train_model(model, args):
 
 
 def EvaluateNets(model, args):
-    checkpoint = torch.load(args.saveDir)
+    checkpoint = torch.load(args.saveDir + '_' + str(args.snr1) + '_' + str(args.snr2))
     # # ======================================================= load weights
     model.load_state_dict(checkpoint)
     model.eval()
