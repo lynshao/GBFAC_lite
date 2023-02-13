@@ -20,9 +20,3 @@ This repo provides three well-trained models for a noisy feedback channel of 20 
 To reproduce the results, please run
 
 python main.py --snr1 <input> --snr2 20 --train 0 --batchSize 100000
-
-
-| Name     | Character |
-| ---      | ---       |
-| Backtick | `         |
-| Pipe     | \|        |
