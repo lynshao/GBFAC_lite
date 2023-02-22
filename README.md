@@ -26,4 +26,4 @@ Noisy feedback:
 
 To reproduce the results, please run
 
-python main.py --snr1 <input> --snr2 20 --train 0 --batchSize 100000
+python main.py --snr1 <input> --snr2 <input> --train 0 --batchSize 100000
