@@ -263,7 +263,7 @@ if __name__ == '__main__':
 
 
         if args.start == 1:
-            checkpoint = torch.load(weights/start)
+            checkpoint = torch.load('weights/start')
             model.load_state_dict(checkpoint)
             print("================================ Successfully load the pretrained data!")
 
