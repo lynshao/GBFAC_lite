@@ -9,8 +9,15 @@ There is no belief update and successive decoding.
 
 # Well-trained models
 
-This repo provides three well-trained models for a noisy feedback channel of 20 dB. The results we obatined are as follows:
+This repo provides two well-trained models for noiseless feedback channels and three well-trained models for a noisy feedback channel of 20 dB. The results we obatined are as follows:
 
+Noiseless feedback:
+| Feedforwad SNR | Feedback SNR | BLER |
+| ------------- | ------------- |  ------------- |
+| -1.5 dB  | 100 dB  | ? |
+| -1 dB  | 100 dB  | 1.3e-9 |
+
+Noisy feedback:
 | Feedforwad SNR | Feedback SNR | BLER |
 | ------------- | ------------- |  ------------- |
 | -1 dB  | 20 dB  | 2.33e-2 |
