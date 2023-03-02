@@ -14,7 +14,7 @@ This repo provides two well-trained models for noiseless feedback channels and t
 Noiseless feedback:
 | Feedforwad SNR | Feedback SNR | BLER |
 | ------------- | ------------- |  ------------- |
-| -1.5 dB  | 100 dB  | ? |
+| -1.5 dB  | 100 dB  | 1.4e-4 |
 | -1 dB  | 100 dB  | 1.3e-9 |
 
 Noisy feedback:
