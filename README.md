@@ -16,7 +16,7 @@ Noiseless feedback:
 | ------------- | ------------- |  ------------- |
 | -1.5 dB  | 100 dB  | 1.4e-4 |
 | -1 dB  | 100 dB  | 1.3e-9 |
-| 0 dB  | 100 dB  | 4e-11 |
+| 0 dB  | 100 dB  | 4.1e-11 |
 
 Noisy feedback:
 | Feedforwad SNR | Feedback SNR | BLER |
