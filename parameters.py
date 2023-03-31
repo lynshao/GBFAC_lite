@@ -13,7 +13,7 @@ def args_parser():
     parser.add_argument('--parity_pb', type=int, default=6, help="Number of parity bits")
     parser.add_argument('--seq_reloc', type=int, default=1)
     parser.add_argument('--memory', type=int, default=51)
-    parser.add_argument('--core', type=int, default=8)
+    parser.add_argument('--core', type=int, default=1)
 
     # Transformer arguments
     parser.add_argument('--heads_trx', type=int, default=1, help="number of heads for the multi-head attention")
